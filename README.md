@@ -6,3 +6,5 @@ Key Features:
 2. Integration of OpenCV for video processing.
 3. Flask-based web dashboard for visualization.
 4. Email alert notifications for detected incidents.
+
+(Ps- code availabe in master branch)
