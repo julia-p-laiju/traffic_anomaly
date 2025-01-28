@@ -6,9 +6,9 @@ from email import encoders
 import os
 
 def send_alert_email(incident_type, car_image_path=None):
-    sender_email = "jt662946@gmail.com"
-    receiver_email = "julessinger3002@gmail.com"
-    password = "iachqecowepmhjki"
+    sender_email = "sender email"
+    receiver_email = "receiver email"
+    password = "*********************"
 
     subject = f"Traffic Incident Alert: {incident_type}"
     body = f"A traffic incident was detected. Type: {incident_type}."
