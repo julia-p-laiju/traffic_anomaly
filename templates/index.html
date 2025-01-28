@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traffic Anomaly Detection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        video {
+            border: 2px solid #ccc;
+            border-radius: 10px;
+        }
+        .button {
+            margin: 20px;
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Traffic Anomaly Detection Dashboard</h1>
+    <p>Anomaly detection on the video feed:</p>
+    <div>
+        <img src="{{ url_for('video_feed') }}" alt="Live Video Feed">
+    </div>
+    <button class="button" onclick="window.location.href='/realtime'">Real-Time Camera</button>
+</body>
+</html>

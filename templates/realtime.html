@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Camera</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        video {
+            border: 2px solid #ccc;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Real-Time Camera Dashboard</h1>
+    <p>Real-time detection from the laptop camera:</p>
+    <div>
+        <img src="{{ url_for('realtime_feed') }}" alt="Live Camera Feed">
+    </div>
+    <button class="button" onclick="window.location.href='/'">Back to Main Dashboard</button>
+</body>
+</html>
